@@ -1,1 +1,12 @@
-Test - Commit 2
+git process
+
+mkdir Hello-World
+cd Hello-World
+git init
+touch README # README is just new filename
+git add README
+git commit -m ‘first commit’ # comments in parenths
+git remote add origin https://github.com/ajc2357/Hello-World.git # note: not needed on secondary commits
+git push origin master
+
+
